@@ -8,7 +8,7 @@ $params = array();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST['prijmeni'])) {
-        $where_conditions[] = "Primeni LIKE ?";
+        $where_conditions[] = "Prijmeni LIKE ?";
         $params[] = "%" . $_POST['prijmeni'] . "%";
     }
     if (!empty($_POST['jmeno'])) {
