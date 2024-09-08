@@ -1,8 +1,8 @@
 <?php
-$servername = "md418.wedos.net";
-$username = "w351838_knihy";
-$password = "6QKxrHqK";
-$dbname = "d351838_knihy";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "knihy";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
